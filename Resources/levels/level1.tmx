@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="70" tileheight="70" nextobjectid="98">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../art/env/Base pack/Tiles/tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="bg" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../art/env/Base pack/bg.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="166" name="p1_tileset" tilewidth="72" tileheight="97">
+  <tile id="0">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk02.png"/>
+  </tile>
+  <tile id="2">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk03.png"/>
+  </tile>
+  <tile id="3">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk04.png"/>
+  </tile>
+  <tile id="4">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk05.png"/>
+  </tile>
+  <tile id="5">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk06.png"/>
+  </tile>
+  <tile id="6">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk07.png"/>
+  </tile>
+  <tile id="7">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk08.png"/>
+  </tile>
+  <tile id="8">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk09.png"/>
+  </tile>
+  <tile id="9">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="72" height="97" source="../art/env/Base pack/Player/p1_walk/PNG/p1_walk11.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="177" name="items_spritesheet" tilewidth="129" tileheight="71">
+  <tile id="0">
+   <image width="70" height="70" source="../art/env/Base pack/Items/bomb.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../art/env/Base pack/Items/bombFlash.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../art/env/Base pack/Items/bush.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonBlue.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonBlue_pressed.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonGreen.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonGreen_pressed.png"/>
+  </tile>
+  <tile id="7">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonRed.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonRed_pressed.png"/>
+  </tile>
+  <tile id="9">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonYellow.png"/>
+  </tile>
+  <tile id="10">
+   <image width="70" height="70" source="../art/env/Base pack/Items/buttonYellow_pressed.png"/>
+  </tile>
+  <tile id="11">
+   <image width="70" height="70" source="../art/env/Base pack/Items/cactus.png"/>
+  </tile>
+  <tile id="12">
+   <image width="70" height="70" source="../art/env/Base pack/Items/chain.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="71" source="../art/env/Base pack/Items/cloud1.png"/>
+  </tile>
+  <tile id="14">
+   <image width="129" height="71" source="../art/env/Base pack/Items/cloud2.png"/>
+  </tile>
+  <tile id="15">
+   <image width="129" height="71" source="../art/env/Base pack/Items/cloud3.png"/>
+  </tile>
+  <tile id="16">
+   <image width="70" height="70" source="../art/env/Base pack/Items/coinBronze.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="../art/env/Base pack/Items/coinGold.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="../art/env/Base pack/Items/coinSilver.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="../art/env/Base pack/Items/fireball.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagBlue.png"/>
+  </tile>
+  <tile id="21">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagBlue2.png"/>
+  </tile>
+  <tile id="22">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagBlueHanging.png"/>
+  </tile>
+  <tile id="23">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagGreen.png"/>
+  </tile>
+  <tile id="24">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagGreen2.png"/>
+  </tile>
+  <tile id="25">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagGreenHanging.png"/>
+  </tile>
+  <tile id="26">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagRed.png"/>
+  </tile>
+  <tile id="27">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagRed2.png"/>
+  </tile>
+  <tile id="28">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagRedHanging.png"/>
+  </tile>
+  <tile id="29">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagYellow.png"/>
+  </tile>
+  <tile id="30">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagYellow2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="70" source="../art/env/Base pack/Items/flagYellowHanging.png"/>
+  </tile>
+  <tile id="32">
+   <image width="70" height="70" source="../art/env/Base pack/Items/gemBlue.png"/>
+  </tile>
+  <tile id="33">
+   <image width="70" height="70" source="../art/env/Base pack/Items/gemGreen.png"/>
+  </tile>
+  <tile id="34">
+   <image width="70" height="70" source="../art/env/Base pack/Items/gemRed.png"/>
+  </tile>
+  <tile id="35">
+   <image width="70" height="70" source="../art/env/Base pack/Items/gemYellow.png"/>
+  </tile>
+  <tile id="36">
+   <image width="70" height="70" source="../art/env/Base pack/Items/keyBlue.png"/>
+  </tile>
+  <tile id="37">
+   <image width="70" height="70" source="../art/env/Base pack/Items/keyGreen.png"/>
+  </tile>
+  <tile id="38">
+   <image width="70" height="70" source="../art/env/Base pack/Items/keyRed.png"/>
+  </tile>
+  <tile id="39">
+   <image width="70" height="70" source="../art/env/Base pack/Items/keyYellow.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="70" source="../art/env/Base pack/Items/mushroomBrown.png"/>
+  </tile>
+  <tile id="41">
+   <image width="70" height="70" source="../art/env/Base pack/Items/mushroomRed.png"/>
+  </tile>
+  <tile id="42">
+   <image width="19" height="14" source="../art/env/Base pack/Items/particleBrick1a.png"/>
+  </tile>
+  <tile id="43">
+   <image width="21" height="21" source="../art/env/Base pack/Items/particleBrick1b.png"/>
+  </tile>
+  <tile id="44">
+   <image width="19" height="14" source="../art/env/Base pack/Items/particleBrick2a.png"/>
+  </tile>
+  <tile id="45">
+   <image width="21" height="21" source="../art/env/Base pack/Items/particleBrick2b.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="70" source="../art/env/Base pack/Items/plant.png"/>
+  </tile>
+  <tile id="47">
+   <image width="70" height="70" source="../art/env/Base pack/Items/plantPurple.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="70" source="../art/env/Base pack/Items/rock.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="70" source="../art/env/Base pack/Items/snowhill.png"/>
+  </tile>
+  <tile id="50">
+   <image width="70" height="70" source="../art/env/Base pack/Items/spikes.png"/>
+  </tile>
+  <tile id="51">
+   <image width="70" height="70" source="../art/env/Base pack/Items/springboardDown.png"/>
+  </tile>
+  <tile id="52">
+   <image width="70" height="70" source="../art/env/Base pack/Items/springboardUp.png"/>
+  </tile>
+  <tile id="53">
+   <image width="70" height="70" source="../art/env/Base pack/Items/star.png"/>
+  </tile>
+  <tile id="54">
+   <image width="70" height="70" source="../art/env/Base pack/Items/switchLeft.png"/>
+  </tile>
+  <tile id="55">
+   <image width="70" height="70" source="../art/env/Base pack/Items/switchMid.png"/>
+  </tile>
+  <tile id="56">
+   <image width="70" height="70" source="../art/env/Base pack/Items/switchRight.png"/>
+  </tile>
+  <tile id="57">
+   <image width="70" height="70" source="../art/env/Base pack/Items/weight.png"/>
+  </tile>
+  <tile id="58">
+   <image width="70" height="70" source="../art/env/Base pack/Items/weightChained.png"/>
+  </tile>
+ </tileset>
+ <layer name="Background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Scene_solid" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7DJxRJu8UA4ONqkCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHClfLVVdXEAv0UXwA==
+  </data>
+ </layer>
+ <layer name="Scene_front" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJACAMBMG0Y2dahp3rMx0cgRnY/1YBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB897dbJ7sDUSs9AAAw3ANwJAJM
+  </data>
+ </layer>
+ <objectgroup name="Items">
+  <object id="22" name="copperCoin" type="collectible" gid="193" x="560" y="6440">
+   <properties>
+    <property name="Amount" value="1"/>
+   </properties>
+  </object>
+  <object id="27" name="silverCoin" type="collectible" gid="195" x="630" y="6370">
+   <properties>
+    <property name="Amount" value="10"/>
+   </properties>
+  </object>
+  <object id="30" name="goldenCoin" type="collectible" gid="194" x="700" y="6300">
+   <properties>
+    <property name="Amount" value="100"/>
+   </properties>
+  </object>
+  <object id="31" name="leverTest" type="trigger" gid="231" x="1330" y="6650">
+   <properties>
+    <property name="isTurnedOn" value="false"/>
+   </properties>
+  </object>
+  <object id="54" name="silverCoin" type="collectible" gid="195" x="700" y="6370">
+   <properties>
+    <property name="Amount" value="10"/>
+   </properties>
+  </object>
+  <object id="55" name="silverCoin" type="collectible" gid="195" x="770" y="6370">
+   <properties>
+    <property name="Amount" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Entities">
+  <object id="14" name="Player" gid="167" x="138" y="6654"/>
+  <object id="59" name="groundCollider" type="staticCollider" x="0" y="6650" width="7000" height="350"/>
+  <object id="60" name="platformCollider" type="staticCollider" x="560" y="6440" width="350" height="70"/>
+  <object id="61" name="coinCollider" type="collectibleColider" x="576.848" y="6388.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="82" name="signCollider" type="monologCollider" x="280" y="6580" width="70" height="70"/>
+  <object id="83" name="coinCollider" type="collectibleColider" x="646.848" y="6388.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="84" name="copperCoin" type="collectible" gid="193" x="630" y="6440">
+   <properties>
+    <property name="Amount" value="1"/>
+   </properties>
+  </object>
+  <object id="85" name="coinCollider" type="collectibleColider" x="716.848" y="6388.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="86" name="copperCoin" type="collectible" gid="193" x="700" y="6440">
+   <properties>
+    <property name="Amount" value="1"/>
+   </properties>
+  </object>
+  <object id="87" name="coinCollider" type="collectibleColider" x="786.848" y="6388.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="88" name="copperCoin" type="collectible" gid="193" x="770" y="6440">
+   <properties>
+    <property name="Amount" value="1"/>
+   </properties>
+  </object>
+  <object id="89" name="coinCollider" type="collectibleColider" x="856.848" y="6388.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="90" name="copperCoin" type="collectible" gid="193" x="840" y="6440">
+   <properties>
+    <property name="Amount" value="1"/>
+   </properties>
+  </object>
+  <object id="91" name="coinCollider" type="collectibleColider" x="646.848" y="6318.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="92" name="coinCollider" type="collectibleColider" x="716.848" y="6318.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="93" name="coinCollider" type="collectibleColider" x="786.848" y="6318.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="94" name="coinCollider" type="collectibleColider" x="716.848" y="6248.09" width="35.8788" height="35.6667">
+   <ellipse/>
+  </object>
+  <object id="97" name="leverCollider" type="triggerCollider" x="1330" y="6580" width="70" height="70"/>
+ </objectgroup>
+</map>
