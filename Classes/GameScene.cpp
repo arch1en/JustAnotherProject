@@ -33,11 +33,24 @@ bool GameScene::init()
 	edgeNode->setPhysicsBody(edgeBody);
 
 	this->addChild(edgeNode);
+	// EXTRACTING STUFF FROM TMX MAP
+	// load map
+	auto map = TMXTiledMap::create("levels/level1.tmx");
+	// point to the concrete, named group
+	auto group = map->getObjectGroup("Entities");
+	// get reference of all its objects 
+	auto& entities = group->getObjects();
+	// or get single reference of an object, by typing its name
+	auto& player = group->getObject("Player");
 
-	auto map = experimental::TMXTiledMap::create("levels/level1.tmx");
+	// create its value
+	Value entitiesVal = Value(entities);
+	Value playerVal = Value(player.at("name"));
+
+	// play with it !
+	CCLOG(entitiesVal.getDescription().c_str());
+
 	this->addChild(map);
-
-	
 
 	return true;
 }
